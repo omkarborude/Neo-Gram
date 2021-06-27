@@ -1,0 +1,136 @@
+.edit-profile-card-div {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid gainsboro;
+}
+
+.edit-profile-upload-img-div {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 2rem;
+}
+.upl-img-div-left-div {
+  width: 40%;
+  font-weight: 600;
+  background-color: #f8edeb;
+}
+.upload-img-right-div {
+  width: 60%;
+  text-align: right;
+}
+.edit-profile-upload-img-input {
+  width: 55%;
+}
+.btn-edit-profile-upload-img {
+  padding: 0.1rem;
+  background-color: #ffc8dd;
+  border: 1px solid #ffc8dd;
+}
+.btn-edit-profile-upload-img:hover {
+  cursor: pointer;
+  background-color: #ffafcc;
+  border: 1px solid #ffafcc;
+  transition: 0.3s;
+}
+.btn-edit-profile-upload-img:active {
+  border: 1px solid #ffafcc;
+  color: white;
+  transition: 0.2s;
+}
+.edit-name-input-div {
+  width: 60%;
+  text-align: right;
+}
+.edit-name-input {
+  width: 80%;
+  padding: 0.2rem;
+  background-color: #ffe0e9;
+  border: 1px solid #ffe0e9;
+  outline: #ffe0e9;
+}
+
+.upl-img-div-left-div-bio {
+  width: 40%;
+  background-color: #f8edeb;
+  font-weight: 600;
+  height: 1.5rem;
+}
+.edit-profile-bio-div {
+  width: 60%;
+  text-align: right;
+}
+.edit-bio-input {
+  width: 80%;
+  height: 5rem;
+  padding: 0.5rem;
+  background-color: #ffe0e9;
+  border: 1px solid #ffe0e9;
+  outline: #ffe0e9;
+  resize: none;
+}
+
+.btn-edit-profile-bottom-div {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-edit-profile-bottom-div button {
+  width: 40%;
+}
+.btn-edit-profile-cancel {
+  background-color: white;
+  border: 1px solid gainsboro;
+  padding: 0.5rem;
+}
+.btn-edit-profile-cancel:hover {
+  background-color: black;
+  border: 1px solid black;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+}
+.btn-edit-profile-submit {
+  background-color: #ff9ebb;
+  border: 1px solid #ff9ebb;
+  padding: 0.5rem;
+  color: white;
+}
+.btn-edit-profile-submit:hover {
+  cursor: pointer;
+  background-color: #ff7aa2;
+  border: 1px solid #ff7aa2;
+  transition: 0.3s;
+}
+.btn-edit-profile-submit:active {
+  border: 1px solid white;
+  transition: 0.2s;
+}
+
+/* responsive */
+@media only screen and (max-width: 800px) {
+  .edit-profile-card-div {
+    width: 95%;
+  }
+  .edit-profile-upload-img-div {
+    width: 100%;
+  }
+  .upl-img-div-left-div {
+    width: 40%;
+    text-align: left;
+    background-color: transparent;
+  }
+  .upload-img-right-div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .upl-img-div-left-div-bio {
+    text-align: left;
+    background-color: transparent;
+  }
+}

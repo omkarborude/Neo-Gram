@@ -1,0 +1,156 @@
+.profil-main-div {
+  width: 45%;
+  margin: 0 auto;
+}
+.profile-card-div {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid gainsboro;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+.profile-card-userinfo {
+  display: flex;
+}
+.profile-card-user-img-div {
+  width: 30%;
+  height: 12rem;
+}
+.profile-card-user-img-div img {
+  width: 80%;
+  height: 90%;
+  border-radius: 50%;
+}
+.profile-card-user-info {
+  text-align: left;
+}
+.profile-card-name-tag {
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+}
+.profile-card-user-info span {
+  font-size: 1rem;
+  font-weight: 400;
+  color: gray;
+}
+.profile-card-bio-div {
+  margin-top: 1rem;
+}
+
+.profile-card-folfolwing {
+  display: flex;
+  margin-top: 1rem;
+}
+.profile-card-post-no {
+  display: flex;
+  font-weight: 600;
+}
+.profile-card-post-no p {
+  margin-left: 0.5rem;
+  font-weight: 400;
+  color: gray;
+}
+.profile-card-followrs {
+  display: flex;
+  font-weight: 600;
+  margin-left: 1.5rem;
+}
+.profile-card-followrs p {
+  margin-left: 0.5rem;
+  font-weight: 400;
+  color: gray;
+}
+.profile-card-followrs p:hover {
+  cursor: pointer;
+  color: palevioletred;
+}
+.profile-card-following {
+  display: flex;
+  margin-left: 1.5rem;
+  font-weight: 600;
+}
+.profile-card-following p {
+  margin-left: 0.5rem;
+  font-weight: 400;
+  color: gray;
+}
+.profile-card-following p:hover {
+  cursor: pointer;
+  color: palevioletred;
+}
+.foledit-btn-div {
+  margin-top: 1rem;
+}
+.edit-profile-btn {
+  padding: 0.5rem;
+  letter-spacing: 0.1rem;
+  background-color: white;
+  font-weight: 600;
+  color: #ff0a54;
+  border: 1px solid #ff0a54;
+  border-radius: 1rem;
+}
+.edit-profile-btn:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #ff0a54;
+  transition: 0.2s;
+}
+.edit-profile-btn:active {
+  border: 1px solid white;
+  transition: 0.3s;
+}
+.following-btn {
+  padding: 0.5rem;
+  letter-spacing: 0.1rem;
+  background-color: white;
+  color: #ff0a54;
+  font-weight: 600;
+  border: 1px solid #ff0a54;
+  border-radius: 1rem;
+}
+.following-btn:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #ff0a54;
+  transition: 0.2s;
+}
+.following-btn:active {
+  border: 1px solid white;
+  transition: 0.3s;
+}
+.btn-logout-user {
+  margin-left: 1rem;
+  padding: 0.5rem;
+  letter-spacing: 0.1rem;
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 1rem;
+  font-weight: 600;
+}
+.btn-logout-user:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  transition: 0.2s;
+}
+.btn-logout-user:active {
+  border: 1px solid white;
+}
+/* responsive */
+@media only screen and (max-width: 800px) {
+  .profil-main-div {
+    width: 95%;
+  }
+  .profile-card-user-img-div {
+    width: 30%;
+    height: 5rem;
+  }
+  .profile-card-user-img-div img {
+    width: 100%;
+    height: 100%;
+  }
+}
