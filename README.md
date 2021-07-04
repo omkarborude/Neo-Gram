@@ -23,6 +23,10 @@ password:- tester
 - Like , Comment On Post
 - Toast
 
+## App screenshot's
+![Screenshot 2021-07-04 215004](https://user-images.githubusercontent.com/58505700/124392203-ede01400-dd11-11eb-9dfc-be19bd1fa0f2.jpg)
+![Screenshot 2021-07-04 215031](https://user-images.githubusercontent.com/58505700/124392205-ef114100-dd11-11eb-8e68-25a499ee0977.jpg)
+
 
 ## Technology Stack Used
 ![HTML](https://img.shields.io/badge/frontend-html-orange.svg?logo=html5&style=flat-square) 
