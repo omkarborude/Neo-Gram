@@ -1,0 +1,200 @@
+.landing-main-div {
+  display: flex;
+  padding: 1rem;
+}
+.landing-left-div {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.landing-left-tag {
+  margin-top: 2rem;
+  text-align: left;
+  padding: 3rem;
+  padding-bottom: 0;
+}
+.landing-left-neogram-tag {
+  font-size: 8rem;
+  color: #072ac8;
+}
+.landing-left-neogram-tag span {
+  color: #ff008a;
+}
+.landing-left-text-div {
+  text-align: left;
+  padding: 3rem;
+  margin-top: 0;
+}
+.landing-left-text-lorem {
+  width: 70%;
+  color: gray;
+}
+
+.login-card-right-login-div {
+  padding: 1rem;
+  width: 40%;
+  margin-top: 2rem;
+  border-left: 1px solid gainsboro;
+}
+.login-card-login-tag {
+  text-align: center;
+}
+.login-card-input-main-div {
+  width: 65%;
+  margin: 0 auto;
+}
+.login-card-input-email-div {
+  margin-top: 1rem;
+  width: 90%;
+}
+.login-card-input-email {
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline-color: transparent;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid gainsboro;
+  margin-top: 2rem;
+}
+
+.login-card-input-email:hover {
+  border-bottom: 1px solid black;
+  outline-color: transparent;
+  transition: 0.2s;
+}
+.login-card-input-username-div {
+  margin-top: 2rem;
+  width: 90%;
+}
+.login-card-input-username {
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline-color: transparent;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid gainsboro;
+  margin-top: 1rem;
+}
+.login-card-input-username:hover {
+  border-bottom: 1px solid black;
+  outline-color: transparent;
+  transition: 0.2s;
+}
+.login-card-input-passowrd-div {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+}
+.login-card-input-passowrd {
+  margin-top: 1rem;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline-color: transparent;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid gainsboro;
+}
+.login-card-input-passowrd:hover {
+  border-bottom: 1px solid black;
+  outline-color: transparent;
+  transition: 0.2s;
+}
+.show-password-icon {
+  font-size: 0.8rem;
+  padding-top: 1rem;
+}
+
+.login-card-login-btn-div {
+  margin-top: 2rem;
+}
+.btn-login-card-login {
+  margin: 0 auto;
+  width: 92%;
+  padding: 0.5rem;
+  letter-spacing: 0.1rem;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.btn-login-card-login:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  transition: 0.3s;
+}
+.login-card-signup {
+  color: gray;
+  text-decoration: underline solid gray 2px;
+  text-align: left;
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+.login-card-signup:hover {
+  color: black;
+  cursor: pointer;
+  text-decoration: underline solid black 2px;
+}
+
+.after-signupup-div {
+  margin-top: 5rem;
+  padding: 1rem;
+}
+
+.fa-praying-hands {
+  font-size: 5rem;
+}
+.btn-after-signup-login {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  letter-spacing: 0.1rem;
+  width: 15rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  background-color: white;
+  border: 1px solid gainsboro;
+  color: #072ac8;
+}
+.btn-after-signup-login:hover {
+  cursor: pointer;
+  background-color: #072ac8;
+  color: white;
+  transition: 0.3s;
+}
+
+/* for mobile */
+@media only screen and (max-width: 800px) {
+  .landing-main-div {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .landing-left-div {
+    width: 100%;
+  }
+  .landing-left-tag {
+    margin-top: 2rem;
+    padding: 1rem;
+    padding-bottom: 0;
+  }
+  .landing-left-neogram-tag {
+    font-size: 4rem;
+  }
+
+  .landing-left-text-div {
+    text-align: left;
+    padding: 1rem;
+    margin-top: 0;
+  }
+  .landing-left-text-lorem {
+    width: 90%;
+    color: gray;
+  }
+
+  .login-card-right-login-div {
+    width: 100%;
+    border-top: 1px solid gainsboro;
+  }
+  .login-card-input-main-div {
+    width: 90%;
+  }
+}

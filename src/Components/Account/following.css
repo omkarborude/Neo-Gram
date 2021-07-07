@@ -1,0 +1,35 @@
+.user-mini-card {
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 1rem;
+  display: flex;
+  border: 1px solid gainsboro;
+}
+.user-mini-card-user-info {
+  width: 60%;
+  text-align: left;
+  padding-left: 1rem;
+}
+.user-mini-card-user-info p {
+  font-weight: 600;
+}
+.user-mini-card-user-info span {
+  color: gray;
+}
+.follflrs-tag {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: orangered;
+  text-decoration: underline;
+}
+.follflrs-tag span {
+  color: gray;
+}
+
+/* responsive */
+@media only screen and (max-width: 800px) {
+  .user-mini-card {
+    width: 90%;
+  }
+}

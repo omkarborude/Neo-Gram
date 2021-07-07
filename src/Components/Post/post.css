@@ -1,0 +1,138 @@
+.post-card-div {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.post-card-user-info {
+  text-align: left;
+  display: flex;
+  padding: 1rem;
+  border-bottom: 1px solid gainsboro;
+}
+.post-card-user-img-div {
+  width: 3rem;
+  height: 3rem;
+}
+.post-card-user-img-div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.post-card-username {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+.post-card-username p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.post-card-username span {
+  font-size: 0.8rem;
+  color: gray;
+}
+.post-card-description {
+  padding: 0.5rem;
+  margin-left: 1rem;
+  text-align: left;
+}
+.post-card-img-div {
+  width: 60%;
+  margin: 0 auto;
+  height: 20rem;
+}
+.post-card-img {
+  width: 100%;
+  height: 100%;
+}
+
+.post-btns-div {
+  width: 100%;
+  display: flex;
+  margin-top: 1rem;
+  border-top: 1px solid gainsboro;
+  border-bottom: 1px solid gainsboro;
+}
+.post-btns-div div {
+  width: 33.33%;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+.like-btn-div {
+  background-color: white;
+  padding: 0.5rem;
+}
+.like-red {
+  color: #3ec300;
+}
+.like-btn-div:hover {
+  cursor: pointer;
+  background-color: #ef233c;
+  color: white;
+  transition: 0.2s;
+}
+.comment-btn-div {
+  background-color: white;
+  padding: 0.5rem;
+  border-left: 1px solid gainsboro;
+  border-right: 1px solid gainsboro;
+}
+.comment-btn-div:hover {
+  cursor: pointer;
+  background-color: #5c95ff;
+  color: white;
+  transition: 0.2s;
+}
+.share-btn-div {
+  background-color: white;
+  padding: 0.5rem;
+}
+.post-card-comment-main-div {
+  padding: 1rem;
+}
+.post-card-comment-div {
+  text-align: left;
+  padding-left: 1rem;
+  border: 1px solid gainsboro;
+  margin-top: 0.5rem;
+}
+.post-card-comment-div p {
+}
+.post-card-comment-div span {
+  font-size: 0.9rem;
+  color: gray;
+}
+.post-comment-div {
+  padding: 1rem;
+  display: flex;
+}
+.post-comment-input {
+  padding: 0.5rem;
+  float: left;
+  width: 60%;
+  border: none;
+  border-bottom: 1px solid gainsboro;
+  outline: transparent;
+}
+.post-comment-input:hover {
+  border-bottom: 1px solid black;
+}
+.btn-post-comment {
+  margin-left: 1rem;
+  background-color: white;
+  border: 1px solid gainsboro;
+  letter-spacing: 0.1rem;
+  padding: 0.5rem;
+}
+.btn-post-comment:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 1px solid black;
+}
+.btn-post-comment:active {
+  border: 1px solid white;
+}
