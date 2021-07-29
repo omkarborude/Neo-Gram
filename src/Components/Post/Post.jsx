@@ -77,11 +77,12 @@ export const Post = ({ postItem }) => {
           className="comment-btn-div"
           onClick={() => setshowCommentDiv(!showCommentDiv)}
         >
-          Comment's <i class="far fa-comment-dots"></i>
+          {postCommentData?.length < 1 ? "" : postCommentData?.length} Comment's{" "}
+          <i class="far fa-comment-dots"></i>
         </div>
-        <div className="share-btn-div">
+        {/* <div className="share-btn-div">
           Share <i class="far fa-share-square"></i>
-        </div>
+        </div> */}
       </div>
       {showCommentDiv ? (
         // comment section main div
