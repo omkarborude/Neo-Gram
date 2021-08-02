@@ -160,7 +160,22 @@
   color: white;
   transition: 0.3s;
 }
-
+.gues-login-div {
+  text-align: left;
+  padding: 1rem;
+}
+.btn-guest-login {
+  padding: 0.2rem;
+  background-color: transparent;
+  border: 1px solid gainsboro;
+}
+.btn-guest-login:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  transition: 0.2s;
+  border: 1px solid black;
+}
 /* for mobile */
 @media only screen and (max-width: 800px) {
   .landing-main-div {

@@ -2,8 +2,8 @@ import "./landing.css";
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-
 import { LoginUser, removeSignup, SignUpUser } from "../Auth/AuthSlice";
+import { GuestLogin } from "./GuestLogin";
 
 export const Landing = () => {
   const navigate = useNavigate();
@@ -103,6 +103,7 @@ export const Landing = () => {
                 create new account{" "}
               </p>
             </div>
+            <GuestLogin />
           </div>
         </div>
       ) : auth.signup ? (
