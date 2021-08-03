@@ -9,9 +9,11 @@ export const GuestLogin = () => {
   const [password, setPassword] = useState("tester");
   const navigate = useNavigate();
   const dispatch = useDispatch();
+
   const loginHandler = async () => {
     await dispatch(LoginUser({ username, password }));
   };
+
   return (
     <div className="gues-login-div">
       <button

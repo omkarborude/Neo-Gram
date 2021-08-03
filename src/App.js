@@ -22,7 +22,6 @@ function App() {
   const dispatch = useDispatch();
   const loginData = useSelector((state) => state.auth);
   const postData = useSelector((state) => state.post);
-  console.log(postData);
   const currentUser = loginData.login;
   useEffect(() => {
     if (currentUser.token) {
